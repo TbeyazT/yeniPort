@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    line-height: 1.6;
+  }
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #333;
+  }
+  nav a:hover {
+    text-decoration: underline;
+  }
+  .hero {
+    text-align: center;
+    padding: 100px 20px;
+  }
+  .hero h1 {
+    font-size: 3em;
+  }
+  .hero h1 span {
+    background: linear-gradient(90deg, #7b2ff7, #f107a3);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  .btn {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px 20px;
+    background: #7b2ff7;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 1em;
+  }
+  .btn:hover {
+    background: #5a1fbf;
+  }
+  .services {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 50px 20px;
+  }
+  .service-card {
+    flex: 1;
+    max-width: 300px;
+    text-align: center;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  .slider {
+    margin: 10px 0;
+    overflow-x: hidden; /* Hide overflow to improve aesthetics */
+    white-space: nowrap;
+    padding: 5px;
+    background: #f9f9f9;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    position: relative;
+  }
+  .slider img {
+    height: 60px;
+    margin: 0 10px;
+    display: inline-block;
+    vertical-align: middle;
+    transition: transform 0.3s ease;
+  }
+  .slider img:hover {
+    transform: scale(1.1);
+  }
